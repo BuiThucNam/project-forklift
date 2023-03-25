@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sansPro: ['"Source Sans Pro"', 'sans-serif']
-      }
+      },
+      colors: {
+        tcolor: "#0F172A",
+      },
     },
   },
   plugins: [],
