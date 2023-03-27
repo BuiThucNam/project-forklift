@@ -1,6 +1,17 @@
 @tailwind base;
+@tailwind components;
+
 @layer base {
   body {
-    @apply font-sansPro text-tcolor
+    @apply font-sansPro text-tcolor;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-blue-900 hover:bg-blue-700 md:text-xs text-white md:font-bold py-1 px-2 rounded;
+  }
+  .nav {
+    @apply text-tcolor xl:py-5 lg:py-4 font-bold cursor-pointer md:hover:border-b md:hover:border-amber-900 hover:text-amber-900;
   }
 }
